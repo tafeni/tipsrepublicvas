@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // welcome');
+    return 'Welcome to Africa Gaming Box';
 });
