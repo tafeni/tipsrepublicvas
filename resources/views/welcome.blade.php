@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- #favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    {{--<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">--}}
     <!-- #title -->
     <title>Welcome to Africa Gaming Box</title>
     <!-- #keywords -->
@@ -188,7 +188,7 @@
                     <h1 class="section__content-title wow fadeInUp" data-wow-duration="1s">Play Tournaments &amp; Win Prizes
                     </h1>
                     <p class="section__content-text">Compete in tournaments. Play Challenges, Win Prizes!</p>
-                    <a href="#" class="btn_theme mt_40"> {{--<i class="lab la-discord"></i>--}}PLAY</a>
+                    <a href="#" class="btn_theme mt_40"> {{--<i class="lab la-discord"></i>--}}PLAY NOW!</a>
                 </div>
             </div>
         </div>
