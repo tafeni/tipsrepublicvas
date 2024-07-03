@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\callback;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/callback',[callback::class, 'handleCallback']);
+Route::post('/callback',[callback::class, 'notAllowed']);
