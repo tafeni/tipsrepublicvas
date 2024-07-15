@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::post('/callback',[callback::class, 'handleCallback']);
-Route::post('/callback',[callback::class, 'notAllowed']);
+Route::get('/callback',[callback::class, 'notAllowed']);
