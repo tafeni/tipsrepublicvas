@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\callback;
+use App\Http\Controllers\pagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+Route::get('/', [pagesController::class, 'index']);
+Route::post('/secured', [pagesController::class, 'securedRoute']);
 
 Route::post('/callback',[callback::class, 'handleCallback']);
 Route::get('/callback',[callback::class, 'notAllowed']);

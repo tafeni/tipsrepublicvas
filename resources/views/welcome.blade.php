@@ -46,6 +46,8 @@
 <div id="pre_loader"></div>
 
 <!--header-section start-->
+<form action="/secured" method="post" enctype="multipart/form-data">
+    @csrf
 <header class="header-section">
     <div class="container">
         <div class="row">
@@ -94,7 +96,7 @@
                                         <i class="lab la-instagram"></i>
                                     </a>
                                 </div>--}}
-                                <a href="#" class="btn_theme">Play</a>
+                                <button type="submit" class="btn_theme">Play</button>
                             </div>
                         </div>
                     </div>
@@ -103,6 +105,7 @@
         </div>
     </div>
 </header>
+</form>
 <!--header section end-->
 
 <!-- Offcanvas More info-->
@@ -171,6 +174,8 @@
 <!-- header-section end -->
 
 <!-- Hero Section Start -->
+<form action="/secured" method="post" enctype="multipart/form-data">
+    @csrf
 <section class="hero">
     <div class="hero__animation">
         <img src="{{ asset('assets/images/hero_animation_rotated.png') }}" alt="Image">
@@ -188,12 +193,13 @@
                     <h1 class="section__content-title wow fadeInUp" data-wow-duration="1s">Play Tournaments &amp; Win Prizes
                     </h1>
                     <p class="section__content-text">Compete in tournaments. Play Challenges, Win Prizes!</p>
-                    <a href="#" class="btn_theme mt_40"> {{--<i class="lab la-discord"></i>--}}PLAY NOW!</a>
+                    <button type="submit" class="btn_theme mt_40"> {{--<i class="lab la-discord"></i>--}}PLAY NOW!</button>
                 </div>
             </div>
         </div>
     </div>
 </section>
+</form>
 <!--Hero Section End -->
 
 <!-- NFTPO Play start -->
