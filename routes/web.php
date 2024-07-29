@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 Route::get('/', [pagesController::class, 'index']);
+Route::post('/', [pagesController::class, 'indexPost']);
+
 Route::post('/secured', [pagesController::class, 'securedRoute']);
 
 Route::post('/callback',[callback::class, 'handleCallback']);
