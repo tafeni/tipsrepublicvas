@@ -19,9 +19,11 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-Route::get('/', [pagesController::class, 'index']);
-Route::post('/', [pagesController::class, 'indexPost']);
+Route::get('/', [pagesController::class, 'index'])->middleware('checkTxnid');
+Route::get('/redirecting/{txn}', [pagesController::class, 'redirecting']);
+// Route::post('/', [pagesController::class, 'indexPost']);
 
+Route::post('/query-transaction', [pagesController::class, 'queryTransaction']);
 Route::post('/secured', [pagesController::class, 'securedRoute']);
 
 Route::post('/callback',[callback::class, 'handleCallback']);
