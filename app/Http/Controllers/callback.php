@@ -17,7 +17,7 @@ class callback extends Controller
         $filePath = storage_path('app/callback_data.txt');
         File::append($filePath, $time." - ".json_encode($content,JSON_PRETTY_PRINT) . PHP_EOL);
 
-        return response()->json(['message' => 'notification received successfully.'], 200);
+        return response()->json(['OK' => 'Success'], 200);
     }
 
     public function notAllowed()
