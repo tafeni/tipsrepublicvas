@@ -28,3 +28,7 @@ Route::post('/secured', [pagesController::class, 'securedRoute']);
 
 Route::post('/callback',[callback::class, 'handleCallback']);
 Route::get('/callback',[callback::class, 'notAllowed']);
+
+Route::fallback(function () {
+    return response()->json(['message' => 'Route not found'], 404);
+});
