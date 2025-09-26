@@ -9,11 +9,11 @@
     <!-- #favicon -->
     {{--<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">--}}
     <!-- #title -->
-    <title>Welcome to Africa Gaming Box</title>
+    <title>Welcome to Tips Republic</title>
     <!-- #keywords -->
     <meta name="keywords" content="Gaming">
     <!-- #description -->
-    <meta name="description" content="Africa Gaming Box">
+    <meta name="description" content="Tips Republic">
 
     <!--  css dependencies start  -->
 
@@ -53,7 +53,7 @@
         <div class="row">
             <div class="col-12">
                 <nav class="navbar navbar-expand-xxl nav-shadow" id="#navbar">
-                    <a class="navbar-brand px-0 section__content-sub-title headingFour" href="/" >{{--<img src="assets/images/logo.png" class="logo" alt="logo">--}}AFRICA GAMING BOX</a>
+                    <a class="navbar-brand px-0 section__content-sub-title headingFour" href="/" >{{--<img src="assets/images/logo.png" class="logo" alt="logo">--}}TIPS REPUBLIC</a>
                     <a class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                         <span class="material-symbols-outlined"> apps </span>
                     </a>
@@ -96,7 +96,7 @@
                                         <i class="lab la-instagram"></i>
                                     </a>
                                 </div>--}}
-                                <button type="submit" class="btn_theme">Play</button>
+                                <button type="submit" class="btn_theme">Subscribe</button>
                             </div>
                         </div>
                     </div>
@@ -189,11 +189,11 @@
         <div class="row">
             <div class="col-12  col-lg-7">
                 <div class="section__content">
-                    <p class="section__content-sub-title headingFour">Welcome to Africa Gaming Box</p>
-                    <h1 class="section__content-title wow fadeInUp" data-wow-duration="1s">Play Tournaments &amp; Win Prizes
+                    <p class="section__content-sub-title headingFour">Welcome to Tips Republic</p>
+                    <h1 class="section__content-title wow fadeInUp" data-wow-duration="1s">Premium AI generated tips for all sports!
                     </h1>
-                    <p class="section__content-text">Compete in tournaments. Play Challenges, Win Prizes!</p>
-                    <button type="submit" class="btn_theme mt_40"> {{--<i class="lab la-discord"></i>--}}PLAY NOW!</button>
+                    <p class="section__content-text">Get Sports predictions &amp; on the go on your mobile phone</p>
+                    <button type="submit" class="btn_theme mt_40"> {{--<i class="lab la-discord"></i>--}}SUBSCRIBE NOW!</button>
                 </div>
             </div>
         </div>
