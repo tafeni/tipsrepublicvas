@@ -57,8 +57,8 @@ class pagesController extends Controller
         $expiration = now()->addMinutes(5);
 
         $txn = $txnid;
-        session(['txnid' => $txn]);
-        session()->put('txnid_expires_at', $expiration);
+        /*session(['txnid' => $txn]);
+        session()->put('txnid_expires_at', $expiration);*/
 
         // http://ng-app.com/Gamestack/gamestack-landing-en-doi-web?origin_banner=1&trxId=xxx&trfsrc=yyy
         return redirect("http://ng-app.com/Gamestack/gamestack-landing-en-doi-web?origin_banner=1&trxId=$txnid&trfsrc=web");
