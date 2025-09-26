@@ -25,7 +25,7 @@ Route::get('/redirecting/{txn}', [pagesController::class, 'redirecting']);
 
 Route::post('/query-transaction', [pagesController::class, 'queryTransaction']);
 Route::post('/secured', [pagesController::class, 'securedRoute']);
-Route::get('/tipsrepublic', [pagesController::class, 'securedRoute']);
+Route::get('/sports', [pagesController::class, 'securedRoute']);
 
 Route::post('/callback',[callback::class, 'handleCallback']);
 Route::get('/callback',[callback::class, 'notAllowed']);
