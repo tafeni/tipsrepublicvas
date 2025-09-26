@@ -60,7 +60,8 @@ class pagesController extends Controller
         session(['txnid' => $txn]);
         session()->put('txnid_expires_at', $expiration);
 
-        return redirect("http://ng-app.com/DigitechAfrican/aficangamingbox-landing-en-doi-web?origin_banner=1&trxId=$txnid");
+        // http://ng-app.com/Gamestack/gamestack-landing-en-doi-web?origin_banner=1&trxId=xxx&trfsrc=yyy
+        return redirect("http://ng-app.com/Gamestack/gamestack-landing-en-doi-web?origin_banner=1&trxId=$txnid&trfsrc=web");
     }
 
     public function generateTransactionId($length = 12)
